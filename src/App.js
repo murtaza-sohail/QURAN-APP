@@ -955,7 +955,7 @@ const App = () => {
 
         setArabic(ar);
         setEnglish(en);
-        setAudio(au);
+     
 
         const flat = ar.flatMap((surah, s) =>
           surah.ayahs.map((ayah, j) => ({
